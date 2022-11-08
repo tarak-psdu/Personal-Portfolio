@@ -342,7 +342,7 @@ main {
   color: #172b4d;
 }
 
-.form input {
+.form .common {
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -385,7 +385,7 @@ main {
   margin-top: 24px;
 }
 
-.touch-button button {
+.form .submit {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -404,12 +404,12 @@ main {
   letter-spacing: 0.03em;
 }
 
-.touch-button button:hover {
+.submit:hover {
   background-color: #27ae60;
   cursor: pointer;
 }
 
-.touch-button button:active {
+.submit:active {
   background-color: #e74c3c;
 }
 
